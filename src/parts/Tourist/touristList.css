@@ -1,0 +1,12 @@
+@import '../../index.css';
+.tour-list{
+       background-color: var(--mainWhite);
+       width: inherit;
+       padding: 2rem;
+       margin:  auto;
+       display: grid;
+       grid-template-columns: repeat(auto-fill, 300px); 
+       grid-column-gap: 1.5rem;
+       row-gap: 1.5rem;
+       
+}

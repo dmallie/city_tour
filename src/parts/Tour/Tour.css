@@ -1,0 +1,60 @@
+@import '../../index.css';
+.tour{
+       background-color: var(--mainGrey);
+       padding: 0;
+       /* margin: 1rem auto; */
+       border-radius: 0.8rem;
+}
+img{
+       width: 100%;
+       padding: 0;
+       border-top-left-radius: 0.8rem;
+       border-top-right-radius: 0.8rem;
+}
+.img-container{
+       position:relative;
+}
+.close-btn img{
+       width: 3rem;
+       position:absolute;
+       top:5%;
+       right:5%;
+       opacity: 0;
+       color: var(--mainWhite);
+}
+.img-container:hover .close-btn img{
+       opacity:1;
+       cursor: pointer;
+}
+.tour-info{
+       /* background-color: var(--mainGrey); */
+       padding: 1rem 0.5rem;
+}
+.tour-info h3{
+       text-transform: uppercase;
+       color: var(--mainGreen);
+}
+.tour-info h4{
+       text-transform: capitalize;
+       color: var(--black);
+       margin: 0.2rem 0 0.6rem 0;
+       font-size: 1.2rem;
+       cursor: pointer;
+}
+.tour-info h5{
+       text-transform: capitalize;
+       color: var(--black);
+       font-size: 0.9rem;
+       margin: 0.2rem 0 0.6rem;
+}
+.info{
+       display: flex;
+}
+.tour-info h5 img{
+       width:0.9rem;
+       padding: 0;
+       margin: 0 1rem;
+}
+.tour-info p{
+       color: var(--black);
+}
